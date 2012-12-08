@@ -340,13 +340,13 @@
   <remove-project name="CyanogenMod/android_external_srec" />
 
   <!-- CFX Projects -->
-  <project name="ColdFusionX/android_external_srec" path="external/srec" remote="github" revision="jellybean" />
+  <project name="ColdFusionX/android_external_srec" path="external/srec" />
 
   <!-- CFX devices -->
-  <project name="ColdFusionX/android_device_zte_skate" path="device/zte/skate" remote="github" revision="jellybean" />
-  <project name="ColdFusionX/android_device_zte_blade2" path="device/zte/blade2" remote="github" revision="jellybean" />
-  <project name="ColdFusionX/android_device_zte_msm7x27-common" path="device/zte/msm7x27-common" remote="github" revision="jellybean" />
-  <project name="ColdFusionX/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" remote="github" revision="jellybean" />
+  <project name="ColdFusionX/android_device_zte_skate" path="device/zte/skate" revision="jellybean" />
+  <project name="ColdFusionX/android_device_zte_blade2" path="device/zte/blade2" revision="jellybean" />
+  <project name="ColdFusionX/android_device_zte_msm7x27-common" path="device/zte/msm7x27-common" />
+  <project name="ColdFusionX/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" revision="jellybean" />
   <project name="ColdFusionX/proprietary_vendor_zte" path="vendor/zte" revision="jellybean" />
   
 </manifest>
