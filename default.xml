@@ -371,4 +371,17 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  
+  <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_external_srec" />
+
+  <!-- CFX Projects -->
+  <project name="ColdFusionX/android_external_srec" path="external/srec" />
+
+  <!-- CFX devices -->
+  <project name="ColdFusionX/android_device_zte_skate" path="device/zte/skate" revision="jellybean" />
+  <project name="ColdFusionX/android_device_zte_blade2" path="device/zte/blade2" revision="jellybean" />
+  <project name="ColdFusionX/android_device_zte_msm7x27-common" path="device/zte/msm7x27-common" />
+  <project name="ColdFusionX/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" revision="jellybean" />
+  <project name="ColdFusionX/proprietary_vendor_zte" path="vendor/zte" revision="jellybean" />
 </manifest>
